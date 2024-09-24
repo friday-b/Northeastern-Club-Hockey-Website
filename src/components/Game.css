@@ -1,0 +1,83 @@
+.game {
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+
+.game ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.game li {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 75px; 
+    width: auto;  
+}
+
+
+.logo {
+    height: 75px;
+    vertical-align: middle;
+    object-fit: cover;
+
+}
+
+.date, .home, .against, .where, .score, .special {
+    margin: 0;
+    padding: 0;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: -25px;
+    left: -20px;
+}
+
+.home {
+    position: relative;
+    left: -114px;
+    font-weight:bolder;
+}
+.against {
+    font-size: 1rem;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: bold;
+    left: -125px;
+    bottom: -1px;
+}
+
+.special {
+    position: relative;
+    left: -633px;
+    bottom: -28px;
+    font-size: 0.75rem;
+}
+
+.where {
+    position: relative;
+    right: -200px;
+}
+
+.score {
+    position: relative;
+    right: -500px;
+    font-size: 23px;
+}

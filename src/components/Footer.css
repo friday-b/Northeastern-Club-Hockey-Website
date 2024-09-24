@@ -1,0 +1,48 @@
+.footer {
+    border-top: 1px solid lightgrey;
+}
+
+.socials-logos {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.socials {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: -10px;
+}
+
+.socials img {
+    width: 30px;
+    height: auto;
+}
+
+
+.husky {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.husky img {
+    height: 200px;
+    
+}
+
+.site-map {
+    display: flex;
+    
+}
+
+
+
+
+
+

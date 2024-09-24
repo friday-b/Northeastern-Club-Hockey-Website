@@ -1,0 +1,112 @@
+.player.background-grey {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+}
+
+.player.background-white {
+    background-color: white;
+    display: flex;
+}
+
+.player {
+    height: 142px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* @media (max-width: 768px) {
+    .player {
+        height: 120px; 
+    }
+} */
+
+.mods {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+}
+
+
+.pic {
+    display: flex;
+    position: absolute;
+    left: 13px;
+    overflow: hidden;
+    align-items: center;
+    height:100%;
+    bottom: -1.75%;
+}
+
+.pic img {
+    height: 110px;
+    width: auto;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    clip-path: inset(0 13% 0 13%);
+}
+
+
+
+
+
+.name {
+    margin: 8px 0;
+    text-decoration: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    background-color: transparent;
+    display: inline;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    position: absolute;
+    left: 165px;
+
+}
+
+
+
+
+.number {
+    display: flex;             
+    justify-content: center;  
+    align-items: center;  
+    width: 25px;            
+    height: 25px;            
+    background-color: #cf102d; 
+    color: #fff;              
+    font-weight: bold;
+    font-style: italic;             
+    text-align: center;   
+    font-size: 17px;   
+    position: absolute;  
+    left: 130px;
+    
+}
+
+.bio {
+
+    position: relative; 
+    left: 0;           
+    top: -35px;        
+    margin-left: 114px; 
+
+
+
+}
+
+.info {
+    position: absolute;
+    left: 800px;
+}

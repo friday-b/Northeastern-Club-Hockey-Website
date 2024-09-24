@@ -1,0 +1,90 @@
+img {
+    height: 75px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+
+}
+
+.nav ul {
+    font-size: 1.15rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+
+}
+
+.nav li:hover {
+    background-color: #777;
+}
+
+.dropdown-holder {
+    position: relative;
+}
+
+.team-dropdown {
+    top: 100%;
+    background-color: #dc1227;
+    padding: 10px;
+    position: absolute;
+    border-radius: 5px;
+    z-index: 999;
+
+}
+
+
+
+.team-dropdown ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+  }
+  
+  .team-dropdown li {
+    margin-bottom: 10px;
+  }
+  
+  .team-dropdown li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .team-dropdown a {
+    color: black;
+    gap: 1rem;
+    display: block;
+    border-radius: 100%;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+  
+  .team-dropdown a:hover {
+    background-color: #777;
+  }
+
