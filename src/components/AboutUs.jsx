@@ -1,5 +1,5 @@
 export function AboutUs() {
     return (
-        <div>About Us</div>
+        <div>About us updated version </div>
     )
 }
